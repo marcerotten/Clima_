@@ -51,21 +51,80 @@ function soloLetras(e) {
 
 }
 
-function validarEmail(elemento){
+function validarEmail(elemento) {
 
     var texto = document.getElementById(elemento.id).value;
     var regex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
     if (!regex.test(texto)) {
-        document.getElementById("resultado").innerHTML = "Correo invalido";
-        document.getElementById("emailtxt").style.borderColor="red";
+        $('#msj_mail').addClass('text-danger').text('Correo Inválido');
+        document.getElementById("emailtxt").style.borderColor = "red";
     } else {
-        document.getElementById("resultado").innerHTML = "";
-        document.getElementById("emailtxt").style.borderColor="";
+        $('#msj_mail').text('');
+        document.getElementById("emailtxt").style.borderColor = "";
     }
 
 }
 
+$(function () {
+
+    $(document).on('keyup', '#pass1txt, #pass2txt', function () {
+        var pass1txt = $('#pass1txt').val().trim();
+        var pass2txt = $('#pass2txt').val().trim();
+        if (!pass1txt || !pass2txt) {
+            $('#msj_pass').removeClass('text-success').addClass('text-danger').text('Las contraseñas no coinciden');
+        }
+
+        else {
+            if (pass1txt !== pass2txt) {
+                $('#msj_pass').removeClass('text-success').addClass('text-danger').text('Las contraseñas no coinciden');
+            }
+
+            // else {
+            //     $('#msj_pass').text('');
+            // }
+        }
+    });
+});
+
+
+function validaForm(f) {
+    nombre = $('#nombretxt').val();
+    email = $('#emailtxt').val();
+    pass1 = $('#pass1txt').val();
+    pass2 = $('#pass2txt').val();
+    telefono = $('#fonotxt').val();
+
+    if (nombre == "" || !email || !pass1 || !pass2 || !telefono) {
+        alert('Debe ingresar todos los campos')
+        //no recarga pagina
+        return false
+    }
+    else {
+        alert('Datos Enviados!')
+        //envia form
+        return true
+    }
+
+}
+
+function validaFormC(f) {
+    nombre = $('#nombretxt').val();
+    email = $('#emailtxt').val();
+    mensaje = $('#mensajetxt').val();
+
+    if (nombre == "" || !email || !mensaje) {
+        alert('Debe ingresar todos los campos')
+        //no recarga pagina
+        return false
+    }
+    else {
+        alert('Datos Enviados!')
+        //envia form
+        return true
+    }
+
+}
 
 var RegionesYcomunas = {
 
@@ -107,7 +166,7 @@ var RegionesYcomunas = {
         },
         {
             "NombreRegion": "Región de la Araucanía",
-            "comunas": ["Temuco", "Carahue", "Cunco", "Curarrehue", "Freire", "Galvarino", "Gorbea", "Lautaro", "Loncoche", "Melipeuco", "Nueva Imperial", "Padre las Casas", "Perquenco", "Pitrufquén", "Pucón", "Saavedra", "Teodoro Schmidt", "Toltén", "Vilcún", "Villarrica", "Cholchol", "Angol", "Collipulli", "Curacautín", "Ercilla", "Lonquimay", "Los Sauces", "Lumaco", "Purén", "Renaico", "Traiguén", "Victoria", ]
+            "comunas": ["Temuco", "Carahue", "Cunco", "Curarrehue", "Freire", "Galvarino", "Gorbea", "Lautaro", "Loncoche", "Melipeuco", "Nueva Imperial", "Padre las Casas", "Perquenco", "Pitrufquén", "Pucón", "Saavedra", "Teodoro Schmidt", "Toltén", "Vilcún", "Villarrica", "Cholchol", "Angol", "Collipulli", "Curacautín", "Ercilla", "Lonquimay", "Los Sauces", "Lumaco", "Purén", "Renaico", "Traiguén", "Victoria",]
         },
         {
             "NombreRegion": "Región de Los Ríos",

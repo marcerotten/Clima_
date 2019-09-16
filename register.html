@@ -9,7 +9,7 @@
 <script src="js/jquery-3.4.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/validations.js"></script>
+<script type="text/javascript" src="js/validations.js"></script>
 
 <div id="nav-placeholder">
 
@@ -24,35 +24,44 @@
 <div class="container margint">
     <div class="row justify-content-center">
         <div class="col-6">
-            <form action="" method="post" id="FormClima">
+            <form method="post" id="RegisterForm" onsubmit="return validaForm(this)">
                 <div class="form-group">
                     <label class="col-form-label">Nombre:</label>
                     <input type="text" placeholder="Ingrese su Nombre" id="nombretxt" class="form-control"
                            onkeypress="return soloLetras(event)">
                 </div>
-                <div class="form-group">
+                <div class="form-group marginb-0">
                     <label class="col-form-label">Email:</label>
                     <input type="email" placeholder="Ingrese su Email" id="emailtxt" class="form-control"
                            onkeyup="validarEmail(this)">
                     <!--<div class="alert alert-danger" role="alert">-->
-                    <a id='resultado'></a>
+                    <label id="msj_mail"></label>
                     <!--</div>-->
                 </div>
                 <div class="form-group">
-                    <label class="col-form-label">Región:</label>
-                    <select id="regiontxt" class="form-control"></select>
+                    <label class="col-form-label">Contraseña:</label>
+                    <input type="password" placeholder="Ingrese su Contraseña" id="pass1txt" class="form-control">
                 </div>
-                <div class="form-group">
-                    <label class="col-form-label">Comuna:</label>
-                    <select id="comunatxt" class="form-control"></select>
+                <div class="form-group marginb-0">
+                    <label class="col-form-label">Confirmar Contraseña:</label>
+                    <input type="password" placeholder="Confirme su Contraseña" id="pass2txt" class="form-control">
+                    <label id="msj_pass"></label>
                 </div>
+                <!--<div class="form-group">-->
+                    <!--<label class="col-form-label">Región:</label>-->
+                    <!--<select id="regiontxt" class="form-control"></select>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                    <!--<label class="col-form-label">Comuna:</label>-->
+                    <!--<select id="comunatxt" class="form-control"></select>-->
+                <!--</div>-->
                 <div class="form-group">
                     <label class="col-form-label">Teléfono:</label>
                     <input type="text" placeholder="Ingrese su Teléfono" id="fonotxt" class="form-control"
                            onkeypress="return validaNumericos(event)" ;>
                 </div>
                 <div class="form-group text-center">
-                    <button type="button" class="btn btn-danger mx-auto" id="btnEnviar">
+                    <button type="submit" class="btn btn-danger mx-auto" id="btnEnviar">
                         Enviar
                     </button>
                 </div>
@@ -62,6 +71,26 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    $('#btnEnviar').click(function () {
 
+        nombre = $('#nombretxt').val();
+        email = $('#emailtxt').val();
+        pass1 = $('#pass1txt').val();
+        pass2 = $('#pass2txt').val();
+        telefono = $('#fonotxt').val();
+
+        console.log(nombre, email, pass1, pass2, telefono)
+    });
+</script>
+<div id="idFooter">
+
+</div>
+
+<script>
+    $(function () {
+        $("#idFooter").after().load("footer.html");
+    });
+</script>
 </body>
 </html>
