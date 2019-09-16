@@ -316,3 +316,19 @@ left:0;
 }
 
 /*FIN ATRIBUTOS DE LOGIN */
+
+.terms-and-conditions {
+	background:orange;
+	border: 0;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+	width: 230px;
+	margin: 20px auto;
+	display: block;
+	cursor:pointer;
+	border-radius: 50px;
+	text-transform: uppercase;
+
+
+}
