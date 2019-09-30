@@ -80,9 +80,10 @@ $(function () {
                 $('#msj_pass').removeClass('text-success').addClass('text-danger').text('Las contraseñas no coinciden');
             }
 
-            // else {
-            //     $('#msj_pass').text('');
-            // }
+             else {
+                console.log(pass1txt,pass2txt)
+                 $('#msj_pass').text('');
+             }
         }
     });
 });
