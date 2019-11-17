@@ -20,6 +20,7 @@ from .Apps.GestionClima import views
 
 urlpatterns = [
     path('', views.home, name="home"),
+    path('index/', views.index, name="index"),
     path('statistics/', views.statistics, name="statistics"),
     path('register/', views.register, name="register"),
     path('contact/', views.contact, name="contact"),

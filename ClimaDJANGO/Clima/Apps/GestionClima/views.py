@@ -5,6 +5,9 @@ from django.shortcuts import render,HttpResponse
 def home(request):
     return render(request, "core/home.html")
 
+def index(request):
+    return render(request, "core/index.html")
+
 def statistics(request):
     return render(request, "core/statistics.html")
 

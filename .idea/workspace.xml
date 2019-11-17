@@ -2,10 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="Se agrega terminos y condiciones en register y su html correspondiente">
-      <change beforePath="$PROJECT_DIR$/.idea/Clima_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Clima_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilo2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bbc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cloudy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/lago.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/old/img_weather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/old/lago.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/old/rapanui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/old/snow.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rapanui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/validations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-825">
-              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -30,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -39,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="e#629#661#0" expanded="true" />
               </folding>
@@ -49,42 +94,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../clima_dj/clima_dj/settings.py">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+            <state relative-caret-position="89">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="83">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="90">
+              <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="26" column="6" lean-forward="true" selection-start-line="4" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -156,9 +205,11 @@
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html" />
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/contact.html" />
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/urls.py" />
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/views.py" />
-        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html" />
       </list>
     </option>
   </component>
@@ -192,70 +243,6 @@
               <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
               <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
               <item name="Clima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clima_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clima_2" type="462c0819:PsiDirectoryNode" />
-              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
-              <item name="Clima" type="462c0819:PsiDirectoryNode" />
-              <item name="Apps" type="462c0819:PsiDirectoryNode" />
-              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +299,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7933000" />
+    <option name="totallyTimeSpent" value="9421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="678" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14039409" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14039409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +317,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -452,7 +440,7 @@
     <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-825">
-          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -463,20 +451,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="89">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
@@ -485,22 +491,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html">
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="4" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
         </state>
       </provider>
     </entry>

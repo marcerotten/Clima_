@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <title>Registro</title>
 </head>
-<body>
 {% load static %}
+<body>
+
+<link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'core/css/estilo.css' %}">
+
 <script src="{% static 'core/js/jquery-3.4.1.js' %}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="{% static 'core/js/bootstrap.js' %}"></script>
 <script type="text/javascript" src="{% static 'core/js/validations.js' %}"></script>
 
-<div id="nav-placeholder">
 
-</div>
+<!--<div id="nav-placeholder">-->
 
-<script>
-    $(function () {
-        $("#nav-placeholder").load("navbar.html");
-    });
-</script>
+<!--</div>-->
+
+<!--<script>-->
+<!--    $(function () {-->
+<!--        $("#nav-placeholder").load("navbar.html");-->
+<!--    });-->
+<!--</script>-->
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="home.html">
-        <img src="img/cloudy.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo Clima">
+    <a class="navbar-brand" href="../">
+        <img src="{% static 'core/img/cloudy.svg' %}" width="30" height="30" class="d-inline-block align-top" alt="Logo Clima">
         WeWeather
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -33,14 +38,14 @@
     <!--- dentro de este div, todoo lo que desaparecera al achicar la pantalla --->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="navbar-nav mr-auto text-center">
-            <a class="nav-item nav-link active" href="home.html">Home</a>
-            <a class="nav-item nav-link" href="statistics.html">Estadísticas</a>
+            <a class="nav-item nav-link active" href="../">Home</a>
+            <a class="nav-item nav-link" href="../statistics">Estadísticas</a>
             <a class="nav-item nav-link" href="#">Nosotros</a>
-            <a class="nav-item nav-link" href="contact.html">Contáctanos</a>
+            <a class="nav-item nav-link" href="../contact">Contáctanos</a>
         </div>
         <div class="d-flex flex-row justify-content-center">
-            <a class="colorpropio" href="index.html" class="marginr-2">Iniciar Sesión</a>
-            <a class="colorpropio" href="register.html">Registrarse</a>
+            <a class="colorpropio" href="../index" class="marginr-2">Iniciar Sesión</a>
+            <a class="colorpropio" href="register">Registrarse</a>
         </div>
     </div>
 </nav>
