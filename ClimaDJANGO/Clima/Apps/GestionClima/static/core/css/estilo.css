@@ -13,6 +13,8 @@
 
 }
 
+ul.errorlist {display:none;}
+
 .slider{
     /*background: url("../img/img_weather.jpg");*/
     height: 100vh;

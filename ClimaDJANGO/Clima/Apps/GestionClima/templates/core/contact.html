@@ -53,30 +53,34 @@
 <div class="container margint">
     <div class="row">
         <div class="col-6">
-            <form action="" method="post" id="contactForm" onsubmit="return validaFormC(this)">
-                <div class="form-group">
-                    <label class="col-form-label">Nombre:</label>
-                    <input type="text" placeholder="Ingrese su Nombre" id="nombretxt" class="form-control"
-                           onkeypress="return soloLetras(event)">
-                </div>
-                <div class="form-group marginb-0">
-                    <label class="col-form-label">Email:</label>
-                    <input type="email" placeholder="Ingrese su Email" id="emailtxt" class="form-control"
-                           onkeyup="validarEmail(this)">
-                    <!--<div class="alert alert-danger" role="alert">-->
-                    <label id='msj_mail'></label>
-                    <!--</div>-->
-                </div>
-                <div class="form-group">
-                    <label class="col-form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensajetxt" rows="3"></textarea>
-                </div>
+            <form action="" method="post" id="contactForm">
+                {% block content %}
+                {% csrf_token %}
+                {{contact_form.as_p}}
+<!--                <div class="form-group">-->
+<!--                    <label class="col-form-label">Nombre:</label>-->
+<!--                    <input type="text" placeholder="Ingrese su Nombre" id="nombretxt" class="form-control"-->
+<!--                           onkeypress="return soloLetras(event)">-->
+<!--                </div>-->
+<!--                <div class="form-group marginb-0">-->
+<!--                    <label class="col-form-label">Email:</label>-->
+<!--                    <input type="email" placeholder="Ingrese su Email" id="emailtxt" class="form-control"-->
+<!--                           onkeyup="validarEmail(this)">-->
+<!--                    &lt;!&ndash;<div class="alert alert-danger" role="alert">&ndash;&gt;-->
+<!--                    <label id='msj_mail'></label>-->
+<!--                    &lt;!&ndash;</div>&ndash;&gt;-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label class="col-form-label">Mensaje:</label>-->
+<!--                    <textarea class="form-control" id="mensajetxt" rows="3"></textarea>-->
+<!--                </div>-->
 
                 <div class="form-group text-center">
                     <button type="submit" class="btn btn-danger mx-auto" id="btnEnviar">
                         Enviar
                     </button>
                 </div>
+                {% endblock %}
 
             </form>
         </div>

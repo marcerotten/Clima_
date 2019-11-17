@@ -53,42 +53,35 @@
 <div class="container margint">
     <div class="row justify-content-center">
         <div class="col-6">
-            <form method="post" id="RegisterForm" onsubmit="return validaForm(this)">
-                <div class="form-group">
-                    <label class="col-form-label">Nombre:</label>
-                    <input type="text" placeholder="Ingrese su Nombre" id="nombretxt" class="form-control"
-                           onkeypress="return soloLetras(event)">
-                </div>
-                <div class="form-group marginb-0">
-                    <label class="col-form-label">Email:</label>
-                    <input type="email" placeholder="Ingrese su Email" id="emailtxt" class="form-control"
-                           onkeyup="validarEmail(this)">
-                    <!--<div class="alert alert-danger" role="alert">-->
-                    <label id="msj_mail"></label>
-                    <!--</div>-->
-                </div>
-                <div class="form-group">
-                    <label class="col-form-label">Contraseña:</label>
-                    <input type="password" placeholder="Ingrese su Contraseña" id="pass1txt" class="form-control">
-                </div>
-                <div class="form-group marginb-0">
-                    <label class="col-form-label">Confirmar Contraseña:</label>
-                    <input type="password" placeholder="Confirme su Contraseña" id="pass2txt" class="form-control">
-                    <label id="msj_pass"></label>
-                </div>
-                <!--<div class="form-group">-->
-                    <!--<label class="col-form-label">Región:</label>-->
-                    <!--<select id="regiontxt" class="form-control"></select>-->
-                <!--</div>-->
-                <!--<div class="form-group">-->
-                    <!--<label class="col-form-label">Comuna:</label>-->
-                    <!--<select id="comunatxt" class="form-control"></select>-->
-                <!--</div>-->
-                <div class="form-group">
-                    <label class="col-form-label">Teléfono:</label>
-                    <input type="text" placeholder="Ingrese su Teléfono" id="fonotxt" class="form-control"
-                           onkeypress="return validaNumericos(event)" ;>
-                </div>
+            <form method="post" id="RegisterForm">
+                {% block content %}
+                {% csrf_token %}
+                {{contact_form.as_p}}
+<!--                <div class="form-group">-->
+<!--                    <label class="col-form-label">Nombre:</label>-->
+<!--                    <input type="text" placeholder="Ingrese su Nombre" id="nombretxt" class="form-control"-->
+<!--                           onkeypress="return soloLetras(event)">-->
+<!--                </div>-->
+<!--                <div class="form-group marginb-0">-->
+<!--                    <label class="col-form-label">Email:</label>-->
+<!--                    <input type="email" placeholder="Ingrese su Email" id="emailtxt" class="form-control"-->
+<!--                           onkeyup="validarEmail(this)">-->
+<!--                    <label id="msj_mail"></label>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label class="col-form-label">Contraseña:</label>-->
+<!--                    <input type="password" placeholder="Ingrese su Contraseña" id="pass1txt" class="form-control">-->
+<!--                </div>-->
+<!--                <div class="form-group marginb-0">-->
+<!--                    <label class="col-form-label">Confirmar Contraseña:</label>-->
+<!--                    <input type="password" placeholder="Confirme su Contraseña" id="pass2txt" class="form-control">-->
+<!--                    <label id="msj_pass"></label>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label class="col-form-label">Teléfono:</label>-->
+<!--                    <input type="text" placeholder="Ingrese su Teléfono" id="fonotxt" class="form-control"-->
+<!--                           onkeypress="return validaNumericos(event)" ;>-->
+<!--                </div>-->
                 <div class="form-group text-center">
                     <button type="submit" class="btn btn-danger mx-auto" id="btnEnviar">
                         Enviar
@@ -99,6 +92,7 @@
                 <input type="checkbox" class="terms-and-conditions"><p>Acepto <a href="terms.html" target="_blank">Terminos y condiciones</a></p>
                 <!--boton terminos y condiciones FIN-->
                 </div>
+                {% endblock %}
             </form>
         </div>
     </div>

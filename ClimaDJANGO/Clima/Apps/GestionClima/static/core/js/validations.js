@@ -1,25 +1,25 @@
-$('#btnEnviar').click(function () {
-
-
-    nombre = $('#nombretxt').val();
-    email = $('#emailtxt').val();
-    region = $('#regiontxt').val();
-    comuna = $('#comunatxt').val();
-    telefono = $('#fonotxt').val();
-
-    $('<div>').text(nombre).appendTo("#nombretxt");
-
-    $('<div>').text(email).appendTo("#emailtxt");
-
-    $('<div>').text(region).appendTo("#regiontxt");
-
-    $('<div>').text(comuna).appendTo("#comunatxt");
-
-    $('<div>').text(telefono).appendTo("#fonotxt");
-
-
-    console.log(nombre, email, region, comuna, telefono)
-});
+// $('#btnEnviar').click(function () {
+//
+//
+//     nombre = $('#nombretxt').val();
+//     email = $('#emailtxt').val();
+//     region = $('#regiontxt').val();
+//     comuna = $('#comunatxt').val();
+//     telefono = $('#fonotxt').val();
+//
+//     $('<div>').text(nombre).appendTo("#nombretxt");
+//
+//     $('<div>').text(email).appendTo("#emailtxt");
+//
+//     $('<div>').text(region).appendTo("#regiontxt");
+//
+//     $('<div>').text(comuna).appendTo("#comunatxt");
+//
+//     $('<div>').text(telefono).appendTo("#fonotxt");
+//
+//
+//     console.log(nombre, email, region, comuna, telefono)
+// });
 
 
 //según los codigos ascii solo acepta números
@@ -89,43 +89,43 @@ $(function () {
 });
 
 
-function validaForm(f) {
-    nombre = $('#nombretxt').val();
-    email = $('#emailtxt').val();
-    pass1 = $('#pass1txt').val();
-    pass2 = $('#pass2txt').val();
-    telefono = $('#fonotxt').val();
-
-    if (nombre == "" || !email || !pass1 || !pass2 || !telefono) {
-        alert('Debe ingresar todos los campos')
-        //no recarga pagina
-        return false
-    }
-    else {
-        alert('Datos Enviados!')
-        //envia form
-        return true
-    }
-
-}
-
-function validaFormC(f) {
-    nombre = $('#nombretxt').val();
-    email = $('#emailtxt').val();
-    mensaje = $('#mensajetxt').val();
-
-    if (nombre == "" || !email || !mensaje) {
-        alert('Debe ingresar todos los campos')
-        //no recarga pagina
-        return false
-    }
-    else {
-        alert('Datos Enviados!')
-        //envia form
-        return true
-    }
-
-}
+// function validaForm(f) {
+//     nombre = $('#nombretxt').val();
+//     email = $('#emailtxt').val();
+//     pass1 = $('#pass1txt').val();
+//     pass2 = $('#pass2txt').val();
+//     telefono = $('#fonotxt').val();
+//
+//     if (nombre == "" || !email || !pass1 || !pass2 || !telefono) {
+//         alert('Debe ingresar todos los campos')
+//         //no recarga pagina
+//         return false
+//     }
+//     else {
+//         alert('Datos Enviados!')
+//         //envia form
+//         return true
+//     }
+//
+// }
+//
+// function validaFormC(f) {
+//     nombre = $('#nombretxt').val();
+//     email = $('#emailtxt').val();
+//     mensaje = $('#mensajetxt').val();
+//
+//     if (nombre == "" || !email || !mensaje) {
+//         alert('Debe ingresar todos los campos')
+//         //no recarga pagina
+//         return false
+//     }
+//     else {
+//         alert('Datos Enviados!')
+//         //envia form
+//         return true
+//     }
+//
+// }
 
 var RegionesYcomunas = {
 
