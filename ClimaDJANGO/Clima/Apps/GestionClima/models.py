@@ -8,7 +8,7 @@ class Cuenta(models.Model):
     Pass1 = models.CharField(max_length=30)
     Pass2 = models.CharField(max_length=30)
     Fono = models.CharField(max_length=9)
-    Fecha = models.DateField()
+    Fecha = models.DateTimeField(auto_now=True)
 
 
     def CuentaUsuario(self):

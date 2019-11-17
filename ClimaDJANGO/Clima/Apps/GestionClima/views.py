@@ -2,23 +2,9 @@ from django.shortcuts import render,redirect
 from django.core.mail import send_mail
 from .models import *
 from .forms import *
-from django.contrib.auth import logout as do_logout
 
 
 # Create your views here.
-
-def logout(request):
-    # Finalizamos la sesión
-    do_logout(request)
-    # Redireccionamos a la portada
-    return redirect('/')
-
-def welcome(request):
-    # Si estamos identificados devolvemos la portada
-    if request.user.is_authenticated:
-        return render(request, "core/home.html")
-    # En otro caso redireccionamos al login
-    return redirect('core/index')
 
 def home(request):
     return render(request, "core/home.html")
@@ -80,6 +66,7 @@ def register(request):
             Pass1 = register_form.cleaned_data['Pass1']
             Pass2 = register_form.cleaned_data['Pass2']
             Fono = register_form.cleaned_data['Fono']
+            Msj = "Registro Exitoso"
             cc_myself = "tareasduocav@gmail.com"
 
             recipients = ['tareasduocav@gmail.com']
@@ -87,10 +74,10 @@ def register(request):
 
                 recipients.append(Email)
 
-                send_mail(Nombre, Email, Pass1, Pass2,Fono, recipients)
+                send_mail(Nombre, Msj, Email, recipients)
                 register_form.save()
                 print('Successful')
-                return redirect('contact')
+                return redirect('register')
         else:
             print('Fails')
 
@@ -98,7 +85,7 @@ def register(request):
         register_form = RegisterForm(request.POST)
 
     context = {
-        "contact_form": register_form,
+        "register_form": register_form,
     }
     template = 'core/register.html'
     return render(request, template, context)
