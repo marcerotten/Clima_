@@ -15,6 +15,9 @@ class Cuenta(models.Model):
         cadena = "{0} {1}, {2}"
         return cadena.format(self.Nombre, self.Fecha, self.Pass1)
 
+    def email(self):
+            return '{}@weweather.com'.format(self.nombre)
+
     def __str__(self):
         return self.CuentaUsuario()
 
@@ -30,3 +33,7 @@ class Contactanos(models.Model):
 class TipoUser(models.Model):
     nombre = models.CharField(max_length=100)
     tipo = models.SmallIntegerField()
+
+    def __init__(self, first, last):
+            self.first = nombre
+            self.last = tipo

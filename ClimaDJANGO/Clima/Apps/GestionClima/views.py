@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from django.core.mail import send_mail
 from .models import *
@@ -5,6 +6,18 @@ from .forms import *
 
 
 # Create your views here.
+#cuenta para listar usuarios inicio
+def listado(request):
+    cuentas = Cuenta.objects.all()
+    fono = 123456789  # Filtro por defecto
+
+    if request.POST.get('fono'):
+        fono = int(request.POST.get('fono'))
+        cuentas = cuentas.filter(fono__gte=fono)
+
+    return render(request, "core/list.html", {'cuentas': cuentas, 'fono': fono})
+#cuenta para listar usuarios fin
+
 
 def home(request):
     return render(request, "core/home.html")
