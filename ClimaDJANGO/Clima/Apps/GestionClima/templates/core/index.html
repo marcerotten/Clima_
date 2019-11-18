@@ -6,6 +6,10 @@
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
 </head>
+<style>
+
+    a { color: #FFFFFF; margin-left: 45%;} /* CSS link color */
+</style>
 <body>
 <script src="{% static 'core/js/jquery-3.4.1.js' %}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -37,8 +41,10 @@
             <input type="text" placeholder="Usuario">
             <input type="password" placeholder="Contraseña">
 
-            <button type="submit">CONECTAR</button>
+            <button type="submit">CONECTAR</button>{% csrf_token %}
             <p>¿No estas registrado? <span>Registrate</span></p>
+            <a font color = white href="{% url 'password_reset'%}">Recuperar Password </a>
+
         </div>
     </div>
 </div>
