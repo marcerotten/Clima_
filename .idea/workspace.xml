@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="Se agrega terminos y condiciones en register y su html correspondiente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="" />
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
   <component name="FavoritesManager">
     <favorites_list name="Clima_" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -63,12 +68,14 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,26 +87,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/Orlandix" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <excluded-from-favorite>
       <branch-storage>
         <map>
@@ -120,6 +107,7 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+<<<<<<< HEAD
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,15 +128,32 @@
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" />
         <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html" />
       </list>
+=======
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Orlandix" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ClimaFino" />
+      </map>
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="23" />
-    <option name="width" value="1260" />
-    <option name="height" value="678" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1QeQgeTLbw6z7wEKX85AxoFts56" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -213,18 +218,23 @@
       </pane>
     </panes>
   </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ClimaDJANGO/Clima" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima" />
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima\Apps\GestionClima\templates" />
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima\Apps\GestionClima\templates\registration" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -262,8 +272,24 @@
       <workItem from="1574033784695" duration="239000" />
       <workItem from="1574107108620" duration="731000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agrega terminos y condiciones en register y su html correspondiente">
+      <created>1574110800320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110800320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agrega terminos y condiciones en register y su html correspondiente">
+      <created>1574110950654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110950654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="19240000" />
   </component>
@@ -293,6 +319,8 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32922825" />
     </layout>
   </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -302,12 +330,6 @@
         <entry key="1">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="range">
@@ -332,6 +354,7 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -346,6 +369,9 @@
                   <option value="3" />
                 </list>
               </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
             </State>
           </value>
         </entry>
@@ -371,6 +397,7 @@
     <MESSAGE value="Se agrega terminos y condiciones en register y su html correspondiente" />
     <option name="LAST_COMMIT_MESSAGE" value="Se agrega terminos y condiciones en register y su html correspondiente" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/validations.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
@@ -499,4 +526,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
 </project>
