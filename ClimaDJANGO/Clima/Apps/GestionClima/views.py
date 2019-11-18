@@ -89,3 +89,60 @@ def register(request):
     }
     template = 'core/register.html'
     return render(request, template, context)
+
+
+def add(request):
+    # Creamos un formulario vacío
+    form = TipoUserForm()
+
+    # Comprobamos si se ha enviado el formulario
+    if request.method == "POST":
+        # Añadimos los datos recibidos al formulario
+        form = TipoUserForm(request.POST)
+        # Si el formulario es válido...
+        if form.is_valid():
+            # Guardamos el formulario pero sin confirmarlo,
+            # así conseguiremos una instancia para manejarla
+            instancia = form.save(commit=False)
+            # Podemos guardarla cuando queramos
+            instancia.save()
+            # Después de guardar redireccionamos a la lista
+            return redirect('/')
+
+    # Si llegamos al final renderizamos el formulario
+    return render(request, "core/add.html", {'form': form})
+
+
+def edit(request, tipoUser_id):
+    # Recuperamos la instancia de la persona
+    instancia = TipoUser.objects.get(id=tipoUser_id)
+
+    # Creamos el formulario con los datos de la instancia
+    form = TipoUserForm(instance=instancia)
+
+    # Comprobamos si se ha enviado el formulario
+    if request.method == "POST":
+        # Actualizamos el formulario con los datos recibidos
+        form = TipoUserForm(request.POST, instance=instancia)
+        # Si el formulario es válido...
+        if form.is_valid():
+            # Guardamos el formulario pero sin confirmarlo,
+            # así conseguiremos una instancia para manejarla
+            instancia = form.save(commit=False)
+            # Podemos guardarla cuando queramos
+            instancia.save()
+
+    # Si llegamos al final renderizamos el formulario
+    return render(request, "core/edit.html", {'form': form})
+
+
+def delete(request, tipoUser_id):
+    # Recuperamos la instancia de la persona y la borramos
+    instancia = TipoUser.objects.get(id=tipoUser_id)
+    instancia.delete()
+
+    # Después redireccionamos de nuevo a la lista
+    return redirect('/')
+
+
+

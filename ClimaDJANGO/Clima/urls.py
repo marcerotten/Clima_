@@ -25,5 +25,10 @@ urlpatterns = [
     path('register/', views.register, name="register"),
     path('contact/', views.contact, name="contact"),
     path('navbar/', views.navbar, name="navbar"),
+    path('add', views.add),
+    path('edit/<int:tipoUser_id>', views.edit),
+    path('edit/<int:instancia.id>', views.edit),
+    path('delete/<int:tipoUser_id>', views.delete),
     path('admin/', admin.site.urls),
+
 ]

@@ -26,3 +26,7 @@ class Contactanos(models.Model):
     def __str__(self):
         return "{0} {1}".format(self.Nombre, self.Email)
 
+
+class TipoUser(models.Model):
+    nombre = models.CharField(max_length=100)
+    tipo = models.SmallIntegerField()

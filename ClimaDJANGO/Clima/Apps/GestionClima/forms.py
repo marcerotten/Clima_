@@ -20,7 +20,7 @@ class ContactForm(ModelForm):
         attrs={
             'class': 'form-control',
         }
-    ),label='Mensaje')
+    ), label='Mensaje')
 
     class Meta:
         model = Contactanos
@@ -42,7 +42,7 @@ class RegisterForm(ModelForm):
         attrs={
             'class': 'form-control',
         }
-    ),label='Contraseña')
+    ), label='Contraseña')
 
     Pass2 = forms.CharField(widget=forms.PasswordInput(
         attrs={
@@ -54,9 +54,25 @@ class RegisterForm(ModelForm):
         attrs={
             'class': 'form-control',
         }
-    ),label='Teléfono')
+    ), label='Teléfono')
 
     class Meta:
         model = Cuenta
         fields = ['Nombre', 'Email', 'Pass1', 'Pass2', 'Fono']
 
+
+class TipoUserForm(ModelForm):
+    nombre = forms.CharField(widget=forms.TextInput(
+        attrs={
+            'class': 'form-control',
+        }
+    ))
+    tipo = forms.CharField(widget=forms.TextInput(
+        attrs={
+            'class': 'form-control',
+        }
+    ))
+
+    class Meta:
+        model = TipoUser
+        fields = ['nombre', 'tipo']
