@@ -23,9 +23,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 #froms para carga de imagenes fin
 urlpatterns = [
-    #path('', views.home, name="home"),
-    path('', views.index, name="index"),
-    #path('index/', views.index, name="index"),
+    path('', views.home, name="home"),
+    #path('', views.index, name="index"),
+    path('index/', views.index, name="index"),
     path('statistics/', views.statistics, name="statistics"),
     path('register/', views.register, name="register"),
     path('contact/', views.contact, name="contact"),
