@@ -91,6 +91,12 @@
       </branch-storage>
     </excluded-from-favorite>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="17" />
+    <option name="y" value="24" />
+    <option name="width" value="1260" />
+    <option name="height" value="678" />
+  </component>
   <component name="ProjectId" id="1QeQgeTLbw6z7wEKX85AxoFts56" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
