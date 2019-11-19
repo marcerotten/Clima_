@@ -55,10 +55,16 @@ class RegisterForm(ModelForm):
             'class': 'form-control',
         }
     ), label='Teléfono')
+    #campo extra para imagen
+    Imagen = forms.ImageField(widget=forms.FileInput(
+            attrs={
+                'class': 'form-control',
+            }
+        ), label='Imagen')
 
     class Meta:
         model = Cuenta
-        fields = ['Nombre', 'Email', 'Pass1', 'Pass2', 'Fono']
+        fields = ['Nombre', 'Email', 'Pass1', 'Pass2', 'Fono', 'Imagen']
 
 
 class TipoUserForm(ModelForm):

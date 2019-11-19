@@ -124,3 +124,8 @@ EMAIL_HOST_USER = 'tareasduocav@gmail.com'
 EMAIL_HOST_PASSWORD = 'tareaduoc'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
+
+
+#para carga de  imagenes
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
