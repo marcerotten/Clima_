@@ -18,7 +18,10 @@ from django.urls import path, include
 
 from .Apps.GestionClima import views
 from django.contrib.auth import views as auth_views
-
+#froms para carga de imagenes inicio
+from django.conf import settings
+from django.conf.urls.static import static
+#froms para carga de imagenes fin
 urlpatterns = [
     #path('', views.home, name="home"),
     path('', views.index, name="index"),
@@ -62,3 +65,5 @@ urlpatterns = [
              ),
             name='password_reset_complete'),
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

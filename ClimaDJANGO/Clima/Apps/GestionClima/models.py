@@ -9,6 +9,8 @@ class Cuenta(models.Model):
     Pass2 = models.CharField(max_length=30)
     Fono = models.CharField(max_length=9)
     Fecha = models.DateTimeField(auto_now=True)
+    #agregado para imagenes
+    imagen = models.ImageField(upload_to="usuarios", null=True)
 
 
     def CuentaUsuario(self):
