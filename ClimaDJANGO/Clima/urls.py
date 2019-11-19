@@ -20,8 +20,9 @@ from .Apps.GestionClima import views
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
-    path('', views.home, name="home"),
-    path('index/', views.index, name="index"),
+    #path('', views.home, name="home"),
+    path('', views.index, name="index"),
+    #path('index/', views.index, name="index"),
     path('statistics/', views.statistics, name="statistics"),
     path('register/', views.register, name="register"),
     path('contact/', views.contact, name="contact"),
