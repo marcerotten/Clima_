@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
 </head>
 <style>
-
     a { color: #FFFFFF; margin-left: 45%;} /* CSS link color */
 </style>
 <body>
@@ -16,9 +15,7 @@
 <script src="{% static 'core/js/bootstrap.js'%}"></script>
 
 <!--<div id="nav-placeholder">
-
 </div>
-
 <script>
     $(function () {
         $("#nav-placeholder").load("navbar.html");
@@ -40,23 +37,13 @@
             <h2> LOGIN </h2>
             <input type="text" placeholder="Usuario">
             <input type="password" placeholder="Contraseña">
-<<<<<<< HEAD
 
-            <button type="submit">CONECTAR</button> {% csrf_token %}
-            <p>¿No estas registrado? <span>Registrate</span></p>
-            <p ><span href="users/password_reset.html'">Password olvidada, recuperala</span></p>
-
-=======
-            
             <button type="submit">CONECTAR</button>{% csrf_token %}
             <p>¿No estas registrado? <span>Registrate</span></p>
             <a font color = white href="{% url 'password_reset'%}">Recuperar Password </a>
->>>>>>> clima_dj
 
         </div>
-
     </div>
-
 </div>
 
 </form>
