@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="Se agrega terminos y condiciones en register y su html correspondiente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="Se agrega terminos y condiciones en register y su html correspondiente">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="ac745104-2616-4f25-ab42-cae7a2fa940a" name="Default Changelist" comment="" />
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+>>>>>>> clima_dj
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +42,52 @@
   <component name="FavoritesManager">
     <favorites_list name="Clima_" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1830">
+              <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+>>>>>>> clima_dj
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
         <option value="Python Script" />
+<<<<<<< HEAD
         <option value="XHTML File" />
+=======
+>>>>>>> clima_dj
         <option value="HTML File" />
       </list>
     </option>
@@ -50,26 +100,6 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/Orlandix" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <excluded-from-favorite>
       <branch-storage>
         <map>
@@ -90,7 +120,9 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+<<<<<<< HEAD
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="17" />
     <option name="y" value="24" />
@@ -99,12 +131,125 @@
   </component>
   <component name="ProjectId" id="1QeQgeTLbw6z7wEKX85AxoFts56" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/validations.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/urls.py" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/css/estilo.css" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/js/validations.js" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/contact.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/forms.py" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/settings.py" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/views.py" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/models.py" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html" />
+        <option value="$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html" />
+      </list>
+=======
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Orlandix" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ClimaFino" />
+      </map>
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1QeQgeTLbw6z7wEKX85AxoFts56" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Clima_1111" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Clima_1111" type="462c0819:PsiDirectoryNode" />
+              <item name="ClimaDJANGO" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="GestionClima" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+>>>>>>> clima_dj
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ClimaDJANGO/Clima" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -112,6 +257,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima" />
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima\Apps\GestionClima\templates" />
+      <recent name="C:\Users\Orlan\WebstormProjects\Clima_fin\ClimaDJANGO\Clima\Apps\GestionClima\templates\registration" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -147,9 +295,60 @@
       <workItem from="1571855184033" duration="19000" />
       <workItem from="1574009973977" duration="1678000" />
       <workItem from="1574033784695" duration="239000" />
+      <workItem from="1574107108620" duration="731000" />
     </task>
+    <task id="LOCAL-00001" summary="Se agrega terminos y condiciones en register y su html correspondiente">
+      <created>1574110800320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110800320</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agrega terminos y condiciones en register y su html correspondiente">
+      <created>1574110950654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110950654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19240000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1260" height="678" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.17898194" />
+      <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.14039409" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.7150171" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32922825" />
+    </layout>
+  </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+>>>>>>> clima_dj
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -183,7 +382,27 @@
         <entry key="MAIN">
           <value>
             <State>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+=======
+>>>>>>> clima_dj
               <option name="COLUMN_ORDER" />
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
             </State>
           </value>
         </entry>
@@ -209,4 +428,138 @@
     <MESSAGE value="Se agrega terminos y condiciones en register y su html correspondiente" />
     <option name="LAST_COMMIT_MESSAGE" value="Se agrega terminos y condiciones en register y su html correspondiente" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/validations.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/estilo.css" />
+    <entry file="file://$PROJECT_DIR$/footer.html" />
+    <entry file="file://$PROJECT_DIR$/contact.html" />
+    <entry file="file://$PROJECT_DIR$/register.html" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/../clima_dj/clima_dj/settings.py" />
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/css/estilo2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4739" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/static/core/js/validations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="67" column="53" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClimaDJANGO/Clima/Apps/GestionClima/templates/core/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+=======
+>>>>>>> d618bbf659ac6d121f1d9acc637c879a94474453
+>>>>>>> clima_dj
 </project>

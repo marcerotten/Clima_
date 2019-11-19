@@ -1,5 +1,4 @@
 """Clima URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
 Examples:
@@ -15,13 +14,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+
 from .Apps.GestionClima import views
 from django.contrib.auth import views as auth_views
-
+#froms para carga de imagenes inicio
+from django.conf import settings
+from django.conf.urls.static import static
+#froms para carga de imagenes fin
 urlpatterns = [
     path('', views.home, name="home"),
     path('index/', views.index, name="index"),
-    #path('base/', views.index, name="base"),
     path('statistics/', views.statistics, name="statistics"),
     path('register/', views.register, name="register"),
     path('contact/', views.contact, name="contact"),
@@ -31,42 +33,35 @@ urlpatterns = [
     path('edit/<int:instancia.id>', views.edit),
     path('delete/<int:tipoUser_id>', views.delete),
     path('admin/', admin.site.urls),
-    path('users/password-reset/',
+
+    path('accounts/', include('django.contrib.auth.urls')),
+
+    #url para recuperacion de mail directorio users
+        path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),
+
+        path('password-reset/',
              auth_views.PasswordResetView.as_view(
-                 template_name='users/password_reset.html'
+                 template_name='registration/password_reset_form.html'
              ),
              name='password_reset'),
 
-#url para recuperacion de mail
-    path('users/login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
-    path('users/password-reset/',
-         auth_views.PasswordResetView.as_view(
-             template_name='users/password_reset.html'
-         ),
-         name='password_reset'),
+        path('password-reset/done/',
+             auth_views.PasswordResetDoneView.as_view(
+                 template_name='registration/password_reset_done.html'
+             ),
+            name='password_reset_done'),
 
-    path('password-reset/done/',
-         auth_views.PasswordResetDoneView.as_view(
-             template_name='users/password_reset_done.html'
-         ),
-        name='password_reset_done'),
+        path('password-reset-confirm/<uidb64>/<token>/',
+            auth_views.PasswordResetConfirmView.as_view(
+                 template_name='registration/password_reset_confirm.html'
+             ),
 
-    path('password-reset-confirm/<uidb64>/<token>/',
-        auth_views.PasswordResetConfirmView.as_view(
-             template_name='users/password_reset_confirm.html'
-         ),
-
-         name='password_reset_confirm'),
-    path('password-reset-complete/',
-         auth_views.PasswordResetCompleteView.as_view(
-             template_name='users/password_reset_complete.html'
-         ),
-        name='password_reset_complete'),
-
-    #path('/blog', include('blog.urls')),
-
-
-
-#if settings.DEBUG:
-    #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+             name='password_reset_confirm'),
+        path('password-reset-complete/',
+             auth_views.PasswordResetCompleteView.as_view(
+                 template_name='registration/password_reset_complete.html'
+             ),
+            name='password_reset_complete'),
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
